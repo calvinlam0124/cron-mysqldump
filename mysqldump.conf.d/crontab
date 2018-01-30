@@ -1,0 +1,1 @@
+* * * * * sh /mnt/mysqldump.conf.d/mysqldump.sh >> /mnt/mysqldump.conf.d/log/cron.log
