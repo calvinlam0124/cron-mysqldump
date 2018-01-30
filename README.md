@@ -25,12 +25,11 @@ docker exec -it CONTAINER_ID bash
 ├── README.md
 └── mysqldump.conf.d
     ├── conf.d
-    │   └── database_example.mysqldump.sh
-    ├── crontab
-    ├── data
+    │   └── database_example.mysqldump.sh   (copy when you have more than 1 database)
+    ├── crontab   (use whendocker build)
     ├── log
     │   └── cron.log
-    └── mysqldump.sh
+    └── mysqldump.sh  (loop and exec conf.d/*.mysqldump.sh)
 ```
 
 ### Issue
