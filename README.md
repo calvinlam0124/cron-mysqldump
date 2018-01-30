@@ -17,3 +17,7 @@ docker run -it -v ~/.cron-mysqldump/data:/mnt/mysqldump.conf.d/data localhost/my
 docker ps
 docker exec -it CONTAINER_ID bash
 ```
+
+
+### Issue
+[Docker tail issue](https://serverfault.com/questions/866504/cannot-tail-log-file-to-docker-logs-in-ubuntu-container)
