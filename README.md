@@ -6,9 +6,10 @@ Containerized, Schedulized, multiple database mysqldump script
 
 ### Usage
 ```sh
-# modify the default database.mysqldump.sh
-# Add a new dump file for other database
-# all SQL file will output to `~/.cron-mysqldump/data`
+# 1. modify the default database.mysqldump.sh
+# 2. Add a new dump file for other database
+# 3. all SQL file will output to `~/.cron-mysqldump/data`
+# 4. modify mysqldump.conf.d/crontab 
 
 
 docker build --rm -t localhost/mysqldump .
