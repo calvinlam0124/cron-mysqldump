@@ -6,6 +6,8 @@ Containerized, Schedulized, multiple database mysqldump script
 
 ### Usage
 ```sh
+# Just build and run or custom as below:
+# --- optional ---
 # 1. modify the default database.mysqldump.sh
 # 2. Add a new dump file for other database
 # 3. all SQL file will output to `~/.cron-mysqldump/data`
