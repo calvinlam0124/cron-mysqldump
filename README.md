@@ -18,6 +18,20 @@ docker ps
 docker exec -it CONTAINER_ID bash
 ```
 
+### Folder Structure
+```sh
+.
+├── Dockerfile
+├── README.md
+└── mysqldump.conf.d
+    ├── conf.d
+    │   └── database_example.mysqldump.sh
+    ├── crontab
+    ├── data
+    ├── log
+    │   └── cron.log
+    └── mysqldump.sh
+```
 
 ### Issue
 [Docker tail issue](https://serverfault.com/questions/866504/cannot-tail-log-file-to-docker-logs-in-ubuntu-container)
