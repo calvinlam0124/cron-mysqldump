@@ -1,0 +1,2 @@
+mysqldump.conf.d/conf.d/*
+!mysqldump.conf.d/conf.d/database_example.mysqldump.sh
